@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html><head>
 <title>Anna L. Ehrhardt</title>
- <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+ <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 <link href="web/css/bootstrap.css" rel="stylesheet" type="text/css">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -59,14 +59,15 @@
 			<div class="container">
 				<!---- start-logo---->
 				<div class="logo">
-					<a href="index.html"><img src="/assets/logo.png" title="Mabur"></a>
+					<a href="index.html"><img src="/assets/ale1.png" title="Mabur"></a>
 				</div>
 				<!---- //End-logo---->
 				<!----start-top-nav---->
 				 <nav class="top-nav">
 					<ul class="top-nav">
 						<li class="active"><a href="#home" class="scroll">Home</a></li>
-						<li class="page-scroll"><a href="#fea" class="scroll">Features</a></li>
+						<li class="page-scroll"><a href="#fea" class="scroll">Languages</a></li>
+						<li class="page-scroll"><a href="#wo" class="scroll">Talents</a></li>
 						<li class="page-scroll"><a href="#port" class="scroll">Portfolio</a></li>
 						<li class="page-scroll"><a href="#blog" class="scroll">Blog</a></li>
 						<li class="page-scroll"><a href="#test" class="scroll">Testimonials</a></li>
@@ -77,8 +78,7 @@
 				<div class="clearfix"> </div>
 				<div class="slide-text text-center">
 					<h1>Anna Livingston Ehrhardt</h1>
-					<span>In a Nutshell</span>
-					<a class="slide-btn" href="#">Learn More</a>
+					<a class="slide-btn" href="#port">Learn More</a>
 				</div>
 				<!----//End-top-nav---->
 			</div>
@@ -88,29 +88,29 @@
 		<div id="fea" class="features">
 			<div class="container">
 				<div class="head text-center">
-					<h3><span> </span> Our Features</h3>
+					<h3><span> </span> My Languages</h3>
 					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
 				</div>
 				<!---- start-features-grids---->
 				<div class="features-grids text-center">
 					<div class="col-md-3 features-grid">
 						<span class="fea-icon1"><i class="fa fa-star"> </i> </span>
-						<h3><a href="#">Premium</a></h3>
+						<h3><a href="#">Ruby</a></h3>
 						<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean.</p>
 					</div>
 					<div class="col-md-3 features-grid">
 						<span class="fea-icon1"><i class="fa fa-thumbs-up"> </i> </span>
-						<h3><a href="#">Easy</a></h3>
+						<h3><a href="#">Rails</a></h3>
 						<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean.</p>
 					</div>
 					<div class="col-md-3 features-grid">
 						<span class="fea-icon1"><i class="fa fa-tachometer"> </i> </span>
-						<h3><a href="#">Fast</a></h3>
+						<h3><a href="#">Javascript</a></h3>
 						<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean.</p>
 					</div>
 					<div class="col-md-3 features-grid">
 						<span class="fea-icon1"><i class="fa fa-mobile"> </i> </span>
-						<h3><a href="#">Responsive</a></h3>
+						<h3><a href="#">MySQL</a></h3>
 						<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean.</p>
 					</div>
 					<div class="clearfix"> </div>
@@ -120,7 +120,7 @@
 		</div>
 		<!----//End-feartures----->
 		<!---- start-work---->
-		<div class="work">
+		<div id= "wo" class="work">
 			<div class="container">
 				<div class="head text-center work-head">
 					<h3><span> </span> At A Glance</h3>
@@ -468,7 +468,7 @@
 		<div class="footer">
 			<div class="container">
 				<div class="footer-left">
-					<a href="#"><img src="/assets/footer-logo.png" title="mabur"></a>
+					<a href="#"><img src="/assets/ale1.png" title="mabur"></a>
 				</div>
 				<script type="text/javascript">
 				$(document).ready(function() {
