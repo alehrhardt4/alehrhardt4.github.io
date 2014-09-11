@@ -4,23 +4,23 @@
  <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
-<link href="web/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="/assets/bootstrap.css" rel="stylesheet" type="text/css">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="web/js/jquery.min.js"></script>
+<script src="/assets/jquery.min.js"></script>
 <!---- start-smoth-scrolling---->
-<script type="text/javascript" src="web/js/move-top.js"></script>
-<script type="text/javascript" src="web/js/easing.js"></script>
+<script type="text/javascript" src="/assets/move-top.js"></script>
+<script type="text/javascript" src="/assets/easing.js"></script>
 <script type="text/javascript">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){		
 					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+					$('html,body').animate({scrollTop:$(this.hash).offset().top});
 				});
 			});
 		</script>
 <!---- start-smoth-scrolling---->
 <!-- Custom Theme files -->
-<link href="web/css/theme-style.css" rel="stylesheet" type="text/css">
+<link href="/assets/theme-style.css" rel="stylesheet" type="text/css">
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -96,22 +96,22 @@
 					<div class="col-md-3 features-grid">
 						<span class="fea-icon1"><i class="fa fa-star"> </i> </span>
 						<h3><a href="#">Ruby</a></h3>
-						<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean.</p>
+						<p> < a year </p>
 					</div>
 					<div class="col-md-3 features-grid">
 						<span class="fea-icon1"><i class="fa fa-thumbs-up"> </i> </span>
 						<h3><a href="#">Rails</a></h3>
-						<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean.</p>
+						<p> < a year</p>
 					</div>
 					<div class="col-md-3 features-grid">
 						<span class="fea-icon1"><i class="fa fa-tachometer"> </i> </span>
 						<h3><a href="#">Javascript</a></h3>
-						<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean.</p>
+						<p>4 + years</p>
 					</div>
 					<div class="col-md-3 features-grid">
 						<span class="fea-icon1"><i class="fa fa-mobile"> </i> </span>
 						<h3><a href="#">MySQL</a></h3>
-						<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean.</p>
+						<p>7 + years</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -131,22 +131,26 @@
 					<div class="col-md-4 work-grid">
 						<span class="col-md-5 w-icon"> <i class="fa fa-search"> </i></span>
 						<div class="col-md-7 work-info">
-							<h4>Manage</h4>
-							<p>Seven years of management experience working with SaaS environments, Agile, and Scrum. </p>
+							<h4>Manager</h4>
+							<p><ul>
+							Agile PM
+							SaaS Projects
+							Scrum
+							DoD Contracts</ul></p>
 						</div>
 					</div>
 					<div class="col-md-4 work-grid center-work-grid">
 						<span class="col-md-5 w-icon"> <i class="fa fa-cogs"> </i></span>
 						<div class="col-md-7 work-info">
-							<h4>Design</h4>
-							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat </p>
+							<h4>Designer</h4>
+							<p> </p>
 						</div>
 					</div>
 					<div class="col-md-4 work-grid">
 						<span class="col-md-5 w-icon"><i class="fa fa-code"> </i> </span>
 						<div class="col-md-7 work-info">
-							<h4>Develop</h4>
-							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat </p>
+							<h4>Developer</h4>
+							<p></p>
 						</div>
 					</div>
 					<div class="clearfix"> </div>
@@ -403,7 +407,7 @@
 						</div>
 						<div class="col-md-3 test-monial-time-line-left-pic">
 							<img src="/assets/pic1.jpg" title="name">
-							<a href="#">Michelle Stacks</a>
+							<a href="#">Jim Houston</a>
 						</div>
 						<span class="grid-point"> </span>
 					</div>
@@ -412,7 +416,7 @@
 					<div class="test-monial-time-line-grid test-monial-time-line-grid-r1">
 						<div class="col-md-3 test-monial-time-line-left-pic">
 							<img src="/assets/pic2.png" title="name">
-							<a href="#">Jim Houston</a>
+							<a href="#">Michelle Stacks</a>
 						</div>
 						<div class="col-md-9 test-monial-time-line-left-text">
 							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a.</p>
