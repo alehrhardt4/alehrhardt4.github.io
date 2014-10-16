@@ -15,6 +15,9 @@ body a{
 	background-size:100% 100%;
 	min-height:700px;
 }
+div.slide-text.text-center {
+	text-shadow: 0 0 20px #333;
+}
 .logo{
 	float: left;
 	margin-top: 2.5em;
@@ -42,7 +45,7 @@ body a{
 .logo a{
 	display:block;
 }
-/* top-nav */
+
 .top-nav:before,
 .top-nav:after {
     content: " ";
@@ -257,7 +260,7 @@ nav a#pull {
 .features-grids{
 	padding: 4em 0 0em;
 }
-/*---- start-work----*/
+
 .work{
 	background: #4F4F57;
 	padding: 5em 0;
@@ -1308,6 +1311,7 @@ div.col-md-6.test-monial-time-line-left {
 }
 .contact-left {
 	padding: 20px;
+	height: 557px;
 }
 .contact-left input[type="text"], .contact-left textarea {
 	padding: 0.8em;
