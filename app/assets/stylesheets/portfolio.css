@@ -10,7 +10,6 @@ body a{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
-/*----start-header----*/
 .header{
 	background:url("/assets/hobcaw.jpg") no-repeat 0px 0px;
 	background-size:100% 100%;
@@ -20,7 +19,6 @@ body a{
 	float: left;
 	margin-top: 2.5em;
 }
-/*----navbar-nav----*/
 .top-nav ul li a{
 	color: #ECF3F5;
 	padding: 0.1em 1em;
@@ -53,9 +51,7 @@ body a{
 .top-nav:after {
     clear: both;
 }
-/*--nav {
-	position: relative;
-}--*/
+
 nav ul {
 	padding: 0;
 	float: right;
@@ -80,7 +76,6 @@ nav a:hover{
 nav a#pull {
 	display: none;
 }
-/*Styles for screen 600px and lower*/
 @media screen and (max-width: 768px) {
 	nav { 
   		height: auto;
@@ -104,7 +99,7 @@ nav a#pull {
   	}
   	
 }
-/*Styles for screen 515px and lower*/
+
 @media only screen and (max-width : 768px) {
 	nav {
 		border-bottom: 0;
@@ -143,7 +138,7 @@ nav a#pull {
 		padding: 0em 0;
 	}
 }
-/*Smartphone*/
+
 @media only screen and (max-width : 320px) {
 	nav li {
 		display: block;
@@ -154,7 +149,7 @@ nav a#pull {
 		border-bottom: 1px solid #576979;
 	}
 }
-/*---- start-slide-text----*/
+
 .slide-text{
 	margin-top: 10em;
 }
@@ -187,7 +182,7 @@ nav a#pull {
 	color:#FFF;
 	text-decoration:none;
 }
-/*------start-features-----*/
+
 .features{
 	padding:5em 0;
 }
@@ -340,8 +335,7 @@ nav a#pull {
 .work-grid:hover .w-icon i{
 	color:#FD3B01;
 }
-/*---- //End-work----*/
-/*----start-portfolio-----*/
+
 .portfolio-box{
 	padding: 3.5em 0 0em;
 }
@@ -415,8 +409,7 @@ nav a#pull {
 				text-transform:uppercase;
 			}
 
-/*	Strip
-/*-----------------------------------------------------------------------------------*/
+
 .b-link-stripe{
 	position:relative;
 	display:inline-block;
@@ -490,9 +483,7 @@ nav a#pull {
 .b-link-stripe:hover .b-line{
 	opacity:1;
 }
-/*-----------------------------------------------------------------------------------*/
-/*	Animation effects
-/*-----------------------------------------------------------------------------------*/
+
 .b-animate-go{
 	text-decoration:none;
 }
@@ -510,7 +501,7 @@ nav a#pull {
 	margin-top:38%;
 	display: -webkit-inline-box;
 }
-/* lt-ie9 */
+
 .b-animate-go:hover .b-animate{
 	visibility:visible;
 }
@@ -526,7 +517,7 @@ nav a#pull {
 .b-animate-go:hover .b-from-left{
 	left:0;
 }
-/*----start-port-grid-text----*/
+
 .port-grid-text{
 	background: #4F4F57;
 	width: 50%;
@@ -563,7 +554,7 @@ nav a#pull {
 	background: url("/assets/arrow-icon1-r.png") no-repeat 0px 0px;
 	left: -20px;
 }
-/*----start-blog----*/
+
 .blog{
 	padding:3em 0;
 }
@@ -664,7 +655,7 @@ nav a#pull {
 	margin-top: 1.8em;
 	display: block
 }
-/*---- start-testmonials----*/
+
 .test-monial-time-line{
 	position:relative;
 	margin: 2em 0;
